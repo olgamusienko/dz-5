@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 8;
+        int a = 7;
         int b = 17;
         int c = 15;
         int d = 9;
@@ -12,8 +12,8 @@ public class Main {
 
         System.out.println("The result of the first comparison is " + comparison1);
 
-        --result1;
-        result2 += 2;
+        ++result1;
+        result2 -= 2;
 
         boolean comparison2 = result1 > result2;
 
